@@ -1,0 +1,35 @@
+h1, p {  cuando se separan por comas se dice que todos 
+los titulos y todos los parrafos tendran estas caracteristicas 
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+ul li{ cuando no tiene coma el elemento de la derecha esta dentro 
+	del de la izquierda 
+	color: blue;
+}
+
+ul li a{ todos los enlaces que esten dentro de cualquier li dentro 
+de un ul tendran estas caracteristicas 
+	color: green;
+}
+
+pseudoclase: define un estado o posicion especifica 
+DE ESTADO
+a: hover{    al situar el raton encima de cualquier enlace
+	se vuelve color rosa y aumenta su tamaño 
+	color: pink;
+	font-size: 50px;
+}
+DE POSICION
+p: first-of-type{   el primer elemento de tipo parrafo
+	last-of-type el ultimo
+	color: green; 
+}
+
+a:not(.destacado){  el punto significa clase, cualquier elemento a 
+	que no tenga asignada la clase destacado
+
+ font-size: 40px;
+}
