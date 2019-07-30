@@ -1,0 +1,11 @@
+/*a{
+	display: block; hace que el elemento ocupo todo el ancho disponible
+}
+	*/
+
+/* display:inline; permite fluir el contenido de derecha a izquierda, ya que
+no ocupa todo el ancho disponible solo ocupa lo que marca su contenido */ 
+h2{
+	padding: 10 px;
+	border: 1px solid red;
+}
