@@ -1,0 +1,17 @@
+body{
+	font-family: Helvetica,Arial,sans-serif;
+
+}
+
+h1{
+	font-size: 100px;
+}
+
+p{
+	font-size: 22px;
+	font-weight: bold; /*esa tipografia es negrita */
+	font-style: italic; /*que se incline */
+	text-transform: uppercase; /*todas las palabras mayusculas */
+	line-height: 40px; /*espacio interlinear */
+
+}
