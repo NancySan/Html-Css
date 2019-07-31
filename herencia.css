@@ -1,0 +1,19 @@
+body{
+	color: purple;
+}
+
+h1{
+	
+}
+
+p{
+	border: 1px solid blue;
+}
+
+span{
+	border: inherit;
+}
+
+a{
+	color: inherit;  /*color heredado */
+}
