@@ -1,0 +1,21 @@
+body{
+	background: gray;
+}
+
+
+.uno{
+	width: 250px;
+	height: 150px;
+	background: blue;
+	position: relative; /*acceso a las propiedades top, bottom, left, rigth para reposicionar el elemento en relacion a donde estaba el elemento */
+
+}
+
+.dos{
+	width: 250px;
+	height: 100px;
+	background: green;
+	/*position: static; no esta posicionado */
+	position: absolute; /*acceso a las propiedades top, bottom, left, rigth para reposicionar el elemento en relacion a body o al primer elemento parent que este posicionado cualquier otro que no sea static */
+	position: fixed; /*fija el elemento*/ 
+}
