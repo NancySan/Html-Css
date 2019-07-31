@@ -1,0 +1,19 @@
+.contenedor{
+	width: 100px;
+	height: 300px;
+	display: block; /*el elemento por defecto ocupa todo el espacio no acepta otro elemento a su lado */
+	display: inline; /* solo ocupa el espacio que ocupa el elemento  si permite mas elementos a su lado pero no da acceso dimensiones, padding, border, margin*/
+	background-color: #ccc;
+}
+
+.contenedor div{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin: 10px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	display: inline-block; /* solo ocupa el espacio del contenido y si permite acceder al modelo de caja */
+}
