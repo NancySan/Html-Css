@@ -1,0 +1,14 @@
+div{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	background: gray;
+	padding: 10px;
+	/*overflow: visible; viene por efecto permite ver el contenido que esta desbordando el contenedor */
+	/*overflow: hidden; no permite ver u oculta el contenido que desborda el contenedor */
+	overflow: scroll; /* añade barra scrol para desplazarse y ver el contenido */
+}
+
+p{
+	margin: 0;
+}
