@@ -1,0 +1,21 @@
+h1{
+	color: blue !important; /* no importa el orden de cascada el important va a prevalecer siempre */
+}
+
+
+.rojo{
+	color: red;
+}
+
+#cabecera{
+	position: fixed;
+	background-color: gray;
+}
+
+h5#indice{
+
+}
+
+p.parrafo{
+
+}
