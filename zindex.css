@@ -1,0 +1,17 @@
+.capa1{
+	width: 300px;
+	height: 150px;
+	background: red;
+	position: relative;
+	z-index: 999; /* acepta cualquier ´position menos static, a mayor z-index mas arriba está*/
+}
+
+.capa2{
+	width: 300px;
+	height: 150px;
+	background: blue;
+	position: relative;
+	top: -50px;
+	left: -100px;
+	z-index: 999; /*cuanto mayor indice z-index que es la profundidad, mas arriba esta en el orden de apilamiento */
+}
