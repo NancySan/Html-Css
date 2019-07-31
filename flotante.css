@@ -1,0 +1,24 @@
+div{
+	background: #ccc;
+	padding: 5px;
+	overflow: auto;
+}
+
+img{
+	float: right;
+	width: 100%;
+	height: auto;
+}
+
+.avatar{
+	float: right;
+	width: 30%;
+	border: 1px solid red;
+}
+
+.contenido{
+	float: right;
+	width: 62%;
+	border: 1px solid blue;
+	background: transparent;
+}
