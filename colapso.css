@@ -1,0 +1,21 @@
+div{
+	width: 250px;
+	height: 250px;
+}
+
+.uno{
+	background: blue;
+	margin-bottom: 20px;
+}
+
+.dos{
+	margin-top: -30px;
+	background: red;
+}
+
+/* cuando hay el mismo margen para los dos 
+contenedores que se tocan, se colapsan y forman un solo margen 
+para las dos, si uno es mayor se tomara el mayor como margen 
+y si hay un positivo y un negativo si el resultado de su suma es
+negativo se sobrepasa uno con el otro */
+
